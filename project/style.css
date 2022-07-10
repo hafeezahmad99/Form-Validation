@@ -1,0 +1,79 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* root font */
+
+html {
+  font-size: 62.5%;
+}
+
+/* base properties */
+
+body {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: blueviolet;
+}
+
+.container {
+  max-width: 400px;
+  background-color: white;
+  margin: 100px auto;
+  /* padding: 20px; */
+}
+
+.header {
+  font-size: 2rem;
+  background-color: gainsboro;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  padding: 2rem;
+}
+
+.form-control {
+  margin-bottom: 2rem;
+}
+
+.form-control label {
+  display: block;
+  font-size: 1.8rem;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.form-control .error-message {
+  font-size: 1.4rem;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: blueviolet;
+  padding: 1.4rem 2rem;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.form-submitted {
+  font-size: 1.8rem;
+  color: green;
+  text-align: center;
+  margin-top: 1rem;
+}
