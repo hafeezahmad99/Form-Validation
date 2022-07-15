@@ -149,9 +149,17 @@ form.addEventListener("submit", function (event) {
     isPasswordValid() &&
     isConfirmPasswordValid()
   ) {
+    // Displaying Form submission success message
     document.querySelector(".form-submitted").innerText =
       "Form Submitted successfully";
     console.log("form submitted succesfully");
+
+    // Removing Form submission success message after 2 seconds
+    setTimeout(() => {
+      document.querySelector(".form-submitted").innerText = "";
+    }, 2000);
+
+    // Resetting input field values to an empty string
     usernameInputField.value = "";
     emailInputField.value = "";
     passwordInputField.value = "";
